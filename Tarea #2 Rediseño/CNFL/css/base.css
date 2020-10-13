@@ -1,0 +1,702 @@
+/* this is the "root" in "root em." */
+html {
+  font-size: 62.5%;
+  /* Now 10px = 1rem! */
+  font-family: 'Roboto', sans-serif;
+}
+
+/*GLOBALES*/
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: #2A2E37;
+}
+
+h3 {
+  font-size: 1.9rem;
+  color: #2A2E37;
+}
+
+p {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  color: #2A2E37;
+}
+
+/*HEADER*/
+.header-principal .navbar {
+  background-color: #2A2E37;
+  padding-bottom: 1rem;
+}
+
+.header-principal .navbar .navbar-brand {
+  padding-bottom: 0.3rem;
+}
+
+.header-principal .navbar .navbar-brand img {
+  padding-left: 1rem;
+}
+
+.header-principal .navbar .navbar-toggler {
+  border: none;
+}
+
+.header-principal .navbar .navbar-toggler .fa-bars {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.header-principal .navbar #navbarNav {
+  border-top: solid 0.1rem #fff;
+  padding-top: 1rem;
+}
+
+.header-principal .navbar #navbarNav .navbar-nav .nav-item {
+  padding-bottom: 1rem;
+}
+
+.header-principal .navbar #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
+.header-principal .navbar #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #FE6929;
+}
+
+.header-principal .navbar .navbar-collapse {
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .header-principal .navbar #navbarNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .navbar-brand img {
+    margin-left: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-principal .navbar #navbarNav {
+    border: none;
+    margin-right: 5rem;
+  }
+  .header-principal .navbar #navbarNav .navbar-nav .nav-item {
+    padding-right: 3rem;
+  }
+  .header-principal .navbar #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #FE6929;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-principal .navbar .navbar-brand {
+    padding-left: 10rem;
+  }
+  .header-principal .navbar #navbarNav {
+    border: none;
+    margin-right: 10rem;
+  }
+  .header-principal .navbar #navbarNav .navbar-nav .nav-item {
+    padding-right: 3.5rem;
+  }
+  .header-principal .navbar #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #FE6929;
+    font-size: 1.5rem;
+  }
+  .header-principal .navbar #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+}
+
+/*MAIN*/
+.main p {
+  line-height: 2.2rem;
+}
+
+.main .section-2 .section-2-title {
+  padding-bottom: 3rem;
+}
+
+.main .section-2 .section-2-services {
+  background-color: #2A2E37;
+}
+
+.main .section-2 .section-2-services .service h3 {
+  color: #FE6929;
+  margin: 0.1rem 0rem;
+  text-transform: capitalize;
+}
+
+.main .section-2 .section-2-services .service p {
+  margin: 0rem 5rem 3rem 5rem;
+  color: #fff;
+  letter-spacing: 0rem;
+}
+
+.main .section-2 .section-2-services .service img {
+  width: 90%;
+  border-radius: 0.5rem;
+}
+
+.main .section-2 .section-2-services .service button {
+  border: none;
+  background-color: #FE6929;
+  padding: 1.2rem 5rem;
+  margin: 2rem 0rem 3rem 0rem;
+}
+
+.main .section-2 .section-2-services .service button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.main .section-2 .section-2-services .service button:hover {
+  background-color: #fff;
+  border: solid 0.2rem #FE6929;
+}
+
+.main .section-2 .section-2-services .service button:hover a {
+  color: #FE6929;
+}
+
+.main .section-2-desktop h3 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding: 7rem 0rem;
+}
+
+.main .section-2-desktop .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #2A2E37;
+  border: none;
+  padding-top: 2rem;
+}
+
+.main .section-2-desktop .nav .nav-item {
+  background-color: #2A2E37;
+}
+
+.main .section-2-desktop .nav .nav-item .nav-link {
+  color: #FE6929;
+  background-color: #2A2E37;
+  border: none;
+  font-size: 1.5rem;
+  padding: 2rem 1.5rem 1rem 1rem;
+}
+
+.main .section-2-desktop .nav .nav-item .nav-link:hover {
+  color: #fff;
+  border-bottom: solid 0.1rem #FE6929;
+}
+
+.main .section-2-desktop .tab-content {
+  background-color: #2A2E37;
+}
+
+.main .section-2-desktop .tab-content .tab-pane {
+  text-align: center;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text h3 {
+  color: #fff;
+  padding: 1rem 0rem;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text p {
+  color: #fff;
+  padding: 1rem 0rem;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button {
+  background-color: #FE6929;
+  border: none;
+  padding: 0.7rem 4rem;
+  margin: 1rem 0rem;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button a {
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button:hover {
+  background-color: #2A2E37;
+  border: solid 0.1rem #fff;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button:hover a {
+  color: #FE6929;
+}
+
+.main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-img img {
+  width: 70%;
+  padding: 5rem 0rem 2rem 0rem;
+  margin-right: 7vw;
+  border-radius: 0.5rem;
+}
+
+.main .section-3 .section-3-title {
+  padding: 7rem 0rem 2rem 0rem;
+}
+
+.main .section-3 .section-3-title h3 {
+  font-weight: bold;
+}
+
+.main .section-3 .section-3-services .service {
+  padding: 4rem 0rem;
+}
+
+.main .section-3 .section-3-services .service img {
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.main .section-3 .section-3-services .service p {
+  padding: 0rem 0rem 1.5rem 0rem;
+}
+
+.main .section-3 .section-3-services .service button {
+  background-color: #FE6929;
+  border: none;
+  padding: 1rem 4rem 0.8rem 4rem;
+}
+
+.main .section-3 .section-3-services .service button a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.main .section-3-desktop .section-3-title {
+  padding: 10rem 0rem 7rem 0rem;
+}
+
+.main .section-3-desktop .section-3-title h3 {
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.main .section-3-desktop .section-3-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-right: 8rem;
+}
+
+.main .section-3-desktop .section-3-services .service {
+  padding: 4rem 0rem;
+}
+
+.main .section-3-desktop .section-3-services .service img {
+  padding: 0rem 0rem 1rem 0rem;
+  width: 12rem;
+}
+
+.main .section-3-desktop .section-3-services .service p {
+  padding: 2rem 0rem 3rem 0rem;
+  font-size: 2rem;
+}
+
+.main .section-3-desktop .section-3-services .service button {
+  background-color: #FE6929;
+  border: none;
+  padding: 1.5rem 5rem 1rem 5rem;
+}
+
+.main .section-3-desktop .section-3-services .service button a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.main .section-3-desktop .section-3-services .service button:hover {
+  background-color: #fff;
+  border: solid 0.1rem #FE6929;
+}
+
+.main .section-3-desktop .section-3-services .service button:hover a {
+  color: #FE6929;
+}
+
+.main .section-4 .section-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main .section-4 .section-elements .element .fas {
+  font-size: 4rem;
+  color: #2A2E37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 0rem 3rem 0rem;
+}
+
+.main .section-4 .section-elements .element p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0rem 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main .section-2 .section-2-title h2 {
+    font-size: 2.8rem;
+  }
+  .main .section-2 .section-2-title p {
+    font-size: 1.8rem;
+  }
+  .main .section-2 .section-2-services .service h3 {
+    font-size: 2.4rem;
+  }
+  .main .section-2 .section-2-services .service p {
+    font-size: 1.8rem;
+    margin: 0rem 18rem 3rem 18rem;
+    line-height: 2.5rem;
+  }
+  .main .section-2 .section-2-services .service img {
+    width: 80%;
+  }
+  .main .section-3 .section-3-title {
+    padding: 7rem 0rem 2rem 0rem;
+  }
+  .main .section-3 .section-3-title h3 {
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+  .main .section-3 .section-3-services .service {
+    padding: 4rem 0rem;
+  }
+  .main .section-3 .section-3-services .service img {
+    width: 15%;
+  }
+  .main .section-3 .section-3-services .service p {
+    padding: 1rem 0rem 2rem 0rem;
+    font-size: 1.9rem;
+  }
+  .main .section-3 .section-3-services .service button {
+    background-color: #FE6929;
+    border: none;
+    padding: 1.5rem 5rem 0.8rem 4rem;
+  }
+  .main .section-3 .section-3-services .service button a {
+    color: #fff;
+    font-size: 1.7rem;
+    text-decoration: none;
+  }
+  .main .section-4 .section-elements .element .fas {
+    font-size: 4rem;
+  }
+  .main .section-4 .section-elements .element p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main .section-2 .section-2-title h2 {
+    font-size: 3rem;
+  }
+  .main .section-2 .section-2-title p {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .main .section-2-desktop .nav .nav-item .nav-link {
+    font-size: 1.7rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text {
+    margin-left: 20vw;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button {
+    background-color: #FE6929;
+    border: none;
+    padding: 2rem 4rem;
+    margin: 1rem 0rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-img img {
+    width: 80%;
+    padding: 5rem 0rem 2rem 0rem;
+    margin-right: 1vw;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main .section-2-desktop .nav .nav-item .nav-link {
+    font-size: 1.8rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text {
+    margin-left: 20vw;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text h3 {
+    font-size: 2.2rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text p {
+    font-size: 2rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button {
+    background-color: #FE6929;
+    border: none;
+    padding: 1rem 5rem;
+    margin: 1rem 0rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button a {
+    color: #fff;
+    font-size: 1.7rem;
+    text-decoration: none;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-img img {
+    width: 85%;
+    padding: 5rem 0rem 2rem 0rem;
+    margin-right: 1vw;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text {
+    margin-left: 20vw;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text h3 {
+    font-size: 2.3rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text p {
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text {
+    margin-left: 23vw;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text h3 {
+    font-size: 2.5rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text p {
+    font-size: 2.1rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button {
+    background-color: #FE6929;
+    border: none;
+    padding: 1.2rem 6rem;
+    margin: 1rem 0rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text button a {
+    color: #fff;
+    font-size: 1.7rem;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text {
+    margin-left: 25vw;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text {
+    margin-left: 22vw;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-text p {
+    padding-right: 10rem;
+    line-height: 3rem;
+  }
+  .main .section-2-desktop .tab-content .tab-pane .tab-service-text .service-img img {
+    width: 100%;
+  }
+}
+
+/*FOOTER CSS*/
+.footer {
+  background-color: #2A2E37;
+  margin-top: 5rem;
+  padding: 4rem 3rem 0rem 3rem;
+}
+
+.footer .footer-navs {
+  margin-bottom: 2rem;
+}
+
+.footer .footer-navs .navbar {
+  padding-bottom: 2rem;
+}
+
+.footer .footer-navs .navbar .navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.footer .footer-navs .navbar .navbar-toggler {
+  color: #fff;
+  border: none;
+}
+
+.footer .footer-navs .navbar .navbar-toggler .fas {
+  font-size: 2rem;
+}
+
+.footer .footer-navs .navbar .collapse .nav-item .nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.footer .footer-navs .navbar .collapse .nav-item .nav-link:hover {
+  color: #FE6929;
+}
+
+.footer .footer-language-social-media {
+  text-align: center;
+}
+
+.footer .footer-language-social-media .language {
+  margin-bottom: 3rem;
+}
+
+.footer .footer-language-social-media .language select {
+  font-size: 1.5rem;
+  padding: 0.6rem 5.5rem 0.6rem 5.5rem;
+}
+
+.footer .footer-language-social-media .social-media {
+  margin-bottom: 3rem;
+}
+
+.footer .footer-copy-right {
+  text-align: center;
+  border-top: solid 0.1rem #fff;
+}
+
+.footer .footer-copy-right p {
+  padding: 3rem 0rem 5rem 0rem;
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  opacity: 60%;
+}
+
+.footer-desktop {
+  background-color: #2A2E37;
+  margin-top: 15rem;
+}
+
+.footer-desktop .footer-desktop-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 5rem;
+}
+
+.footer-desktop .footer-desktop-elements .footer-desktop-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer-desktop .footer-desktop-elements .footer-desktop-div h4 {
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 5rem 0rem 2rem 0rem;
+}
+
+.footer-desktop .footer-desktop-elements .footer-desktop-div p {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0rem 0rem 1.5rem 0rem;
+}
+
+.footer-desktop .footer-desktop-elements .footer-desktop-div a {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 1.5rem;
+  text-decoration: none;
+}
+
+.footer-desktop .footer-desktop-elements .footer-desktop-div a:hover {
+  color: #FE6929;
+}
+
+.footer-desktop .footer-desktop-elements .footer-desktop-div img {
+  width: 70%;
+  padding: 1rem 0rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-desktop .footer-desktop-elements .footer-desktop-div h4 {
+    font-size: 1.6rem;
+  }
+  .footer-desktop .footer-desktop-elements .footer-desktop-div p {
+    font-size: 1.4rem;
+  }
+  .footer-desktop .footer-desktop-elements .footer-desktop-div a {
+    font-size: 1.4rem;
+  }
+  .footer-desktop .footer-desktop-elements .footer-desktop-div img {
+    width: 75%;
+  }
+}
+/*# sourceMappingURL=base.css.map */

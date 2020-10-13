@@ -1,0 +1,757 @@
+/* this is the "root" in "root em." */
+
+html {
+    font-size: 62.5%;
+    /* Now 10px = 1rem! */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*GLOBALES*/
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: $charade;
+}
+
+h3 {
+    font-size: 1.9rem;
+    color: $charade;
+}
+
+p {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: $charade;
+}
+
+
+/*HEADER*/
+
+.header-principal {
+    .navbar {
+        .navbar-brand {
+            padding-bottom: 0.3rem;
+            img {
+                padding-left: 1rem;
+            }
+        }
+        background-color: $charade;
+        padding-bottom: 1rem;
+        .navbar-toggler {
+            border: none;
+            .fa-bars {
+                color: $blanco;
+                font-size: 2.2rem;
+            }
+        }
+        #navbarNav {
+            border-top: solid 0.1rem #fff;
+            padding-top: 1rem;
+            .navbar-nav {
+                .nav-item {
+                    padding-bottom: 1rem;
+                    .nav-link {
+                        color: $blanco;
+                        &:hover {
+                            color: $naranja;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-collapse {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header-principal {
+        .navbar {
+            #navbarNav {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .navbar-brand {
+        img {
+            margin-left: 3.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header-principal {
+        .navbar {
+            #navbarNav {
+                border: none;
+                margin-right: 5rem;
+                .navbar-nav {
+                    .nav-item {
+                        padding-right: 3rem;
+                        .nav-link {
+                            color: $naranja;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header-principal {
+        .navbar {
+            .navbar-brand {
+                padding-left: 10rem;
+            }
+            #navbarNav {
+                border: none;
+                margin-right: 10rem;
+                .navbar-nav {
+                    .nav-item {
+                        padding-right: 3.5rem;
+                        .nav-link {
+                            color: $naranja;
+                            font-size: 1.5rem;
+                            &:hover {
+                                color: $blanco;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*MAIN*/
+
+.main {
+    p {
+        line-height: 2.2rem;
+    }
+    .section-2 {
+        .section-2-title {
+            padding-bottom: 3rem;
+        }
+        .section-2-services {
+            background-color: $charade;
+            .service {
+                h3 {
+                    color: $naranja;
+                    margin: 0.1rem 0rem;
+                    text-transform: capitalize;
+                }
+                p {
+                    margin: 0rem 5rem 3rem 5rem;
+                    color: $blanco;
+                    letter-spacing: 0rem;
+                }
+                img {
+                    width: 90%;
+                    border-radius: 0.5rem;
+                }
+                button {
+                    border: none;
+                    background-color: $naranja;
+                    padding: 1.2rem 5rem;
+                    margin: 2rem 0rem 3rem 0rem;
+                    a {
+                        text-decoration: none;
+                        color: $blanco;
+                        font-size: 1.4rem;
+                    }
+                    &:hover {
+                        a {
+                            color: $naranja;
+                        }
+                        background-color: $blanco;
+                        border: solid 0.2rem $naranja;
+                    }
+                }
+            }
+        }
+    }
+    .section-2-desktop {
+        h3 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            padding: 7rem 0rem;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: $charade;
+            border: none;
+            padding-top: 2rem;
+            .nav-item {
+                background-color: $charade;
+                .nav-link {
+                    color: $naranja;
+                    background-color: $charade;
+                    border: none;
+                    font-size: 1.5rem;
+                    padding: 2rem 1.5rem 1rem 1rem;
+                    &:hover {
+                        color: $blanco;
+                        border-bottom: solid 0.1rem $naranja;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            background-color: $charade;
+            .tab-pane {
+                text-align: center;
+                .tab-service-text {
+                    display: flex;
+                    align-items: center;
+                    .service-text {
+                        text-align: left;
+                        margin-left: 10vw;
+                        h3 {
+                            color: $blanco;
+                            padding: 1rem 0rem;
+                        }
+                        p {
+                            color: $blanco;
+                            padding: 1rem 0rem;
+                        }
+                        button {
+                            background-color: $naranja;
+                            border: none;
+                            padding: 0.7rem 4rem;
+                            margin: 1rem 0rem;
+                            a {
+                                color: $blanco;
+                                font-size: 1.3rem;
+                                text-decoration: none;
+                            }
+                            &:hover {
+                                background-color: $charade;
+                                border: solid 0.1rem $blanco;
+                                a {
+                                    color: $naranja;
+                                }
+                            }
+                        }
+                    }
+                    .service-img {
+                        img {
+                            width: 70%;
+                            padding: 5rem 0rem 2rem 0rem;
+                            margin-right: 7vw;
+                            border-radius: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-3 {
+        .section-3-title {
+            padding: 7rem 0rem 2rem 0rem;
+            h3 {
+                font-weight: bold;
+            }
+        }
+        .section-3-services {
+            .service {
+                padding: 4rem 0rem;
+                img {
+                    padding: 0rem 0rem 1rem 0rem;
+                }
+                p {
+                    padding: 0rem 0rem 1.5rem 0rem;
+                }
+                button {
+                    background-color: $naranja;
+                    border: none;
+                    padding: 1rem 4rem 0.8rem 4rem;
+                    a {
+                        color: $blanco;
+                        font-size: 1.4rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .section-3-desktop {
+        .section-3-title {
+            padding: 10rem 0rem 7rem 0rem;
+            h3 {
+                font-weight: bold;
+                font-size: 2.8rem;
+            }
+        }
+        .section-3-services {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            padding-right: 8rem;
+            .service {
+                padding: 4rem 0rem;
+                img {
+                    padding: 0rem 0rem 1rem 0rem;
+                    width: 12rem;
+                }
+                p {
+                    padding: 2rem 0rem 3rem 0rem;
+                    font-size: 2rem;
+                }
+                button {
+                    background-color: $naranja;
+                    border: none;
+                    padding: 1.5rem 5rem 1rem 5rem;
+                    a {
+                        color: $blanco;
+                        font-size: 1.4rem;
+                        text-decoration: none;
+                    }
+                    &:hover {
+                        background-color: $blanco;
+                        border: solid 0.1rem $naranja;
+                        a {
+                            color: $naranja;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-4 {
+        .section-elements {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            .element {
+                .fas {
+                    font-size: 4rem;
+                    color: $charade;
+                    display: flex;
+                    justify-content: center;
+                    padding: 5rem 0rem 3rem 0rem;
+                }
+                p {
+                    font-size: 1.3rem;
+                    text-align: center;
+                    margin: 0rem 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        .section-2 {
+            .section-2-title {
+                h2 {
+                    font-size: 2.8rem;
+                }
+                p {
+                    font-size: 1.8rem;
+                }
+            }
+            .section-2-services {
+                .service {
+                    h3 {
+                        font-size: 2.4rem;
+                    }
+                    p {
+                        font-size: 1.8rem;
+                        margin: 0rem 18rem 3rem 18rem;
+                        line-height: 2.5rem;
+                    }
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        .section-3 {
+            .section-3-title {
+                padding: 7rem 0rem 2rem 0rem;
+                h3 {
+                    font-weight: bold;
+                    font-size: 2.8rem;
+                }
+            }
+            .section-3-services {
+                .service {
+                    padding: 4rem 0rem;
+                    img {
+                        width: 15%;
+                    }
+                    p {
+                        padding: 1rem 0rem 2rem 0rem;
+                        font-size: 1.9rem;
+                    }
+                    button {
+                        background-color: $naranja;
+                        border: none;
+                        padding: 1.5rem 5rem 0.8rem 4rem;
+                        a {
+                            color: $blanco;
+                            font-size: 1.7rem;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .section-4 {
+            .section-elements {
+                .element {
+                    .fas {
+                        font-size: 4rem;
+                    }
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main {
+        .section-2 {
+            .section-2-title {
+                h2 {
+                    font-size: 3rem;
+                }
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .main {
+        .section-2-desktop {
+            .nav {
+                .nav-item {
+                    .nav-link {
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+            .tab-content {
+                .tab-pane {
+                    .tab-service-text {
+                        .service-text {
+                            margin-left: 20vw;
+                            button {
+                                background-color: $naranja;
+                                border: none;
+                                padding: 2rem 4rem;
+                                margin: 1rem 0rem;
+                                a {
+                                    color: $blanco;
+                                    font-size: 1.5rem;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        .service-img {
+                            img {
+                                width: 80%;
+                                padding: 5rem 0rem 2rem 0rem;
+                                margin-right: 1vw;
+                                border-radius: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main {
+        .section-2-desktop {
+            .nav {
+                .nav-item {
+                    .nav-link {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+            .tab-content {
+                .tab-pane {
+                    .tab-service-text {
+                        .service-text {
+                            margin-left: 20vw;
+                            h3 {
+                                font-size: 2.2rem;
+                            }
+                            p {
+                                font-size: 2rem;
+                            }
+                            button {
+                                background-color: $naranja;
+                                border: none;
+                                padding: 1rem 5rem;
+                                margin: 1rem 0rem;
+                                a {
+                                    color: $blanco;
+                                    font-size: 1.7rem;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        .service-img {
+                            img {
+                                width: 85%;
+                                padding: 5rem 0rem 2rem 0rem;
+                                margin-right: 1vw;
+                                border-radius: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .main {
+        .section-2-desktop {
+            .tab-content {
+                .tab-pane {
+                    .tab-service-text {
+                        .service-text {
+                            margin-left: 20vw;
+                            h3 {
+                                font-size: 2.3rem;
+                            }
+                            p {
+                                font-size: 2.1rem;
+                                line-height: 2.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .main {
+        .section-2-desktop {
+            .tab-content {
+                .tab-pane {
+                    .tab-service-text {
+                        .service-text {
+                            margin-left: 23vw;
+                            h3 {
+                                font-size: 2.5rem;
+                            }
+                            p {
+                                font-size: 2.1rem;
+                            }
+                            button {
+                                background-color: $naranja;
+                                border: none;
+                                padding: 1.2rem 6rem;
+                                margin: 1rem 0rem;
+                                a {
+                                    color: $blanco;
+                                    font-size: 1.7rem;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .main {
+        .section-2-desktop {
+            .tab-content {
+                .tab-pane {
+                    .tab-service-text {
+                        .service-text {
+                            margin-left: 25vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .main {
+        .section-2-desktop {
+            .tab-content {
+                .tab-pane {
+                    .tab-service-text {
+                        .service-text {
+                            margin-left: 22vw;
+                            p {
+                                padding-right: 10rem;
+                                line-height: 3rem;
+                            }
+                        }
+                        .service-img {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*FOOTER CSS*/
+
+.footer {
+    background-color: $charade;
+    margin-top: 5rem;
+    padding: 4rem 3rem 0rem 3rem;
+    .footer-navs {
+        margin-bottom: 2rem;
+        .navbar {
+            padding-bottom: 2rem;
+            .navbar-brand {
+                color: $blanco;
+                text-transform: uppercase;
+                font-size: 1.4rem;
+            }
+            .navbar-toggler {
+                color: $blanco;
+                border: none;
+                .fas {
+                    font-size: 2rem;
+                }
+            }
+            .collapse {
+                .nav-item {
+                    .nav-link {
+                        color: $blanco;
+                        font-size: 1.2rem;
+                        &:hover {
+                            color: $naranja;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-language-social-media {
+        text-align: center;
+        .language {
+            margin-bottom: 3rem;
+            select {
+                font-size: 1.5rem;
+                padding: 0.6rem 5.5rem 0.6rem 5.5rem;
+            }
+        }
+        .social-media {
+            margin-bottom: 3rem;
+        }
+    }
+    .footer-copy-right {
+        text-align: center;
+        border-top: solid 0.1rem $blanco;
+        p {
+            padding: 3rem 0rem 5rem 0rem;
+            color: $blanco;
+            font-size: 1.3rem;
+            text-transform: capitalize;
+            opacity: 60%;
+        }
+    }
+}
+
+.footer-desktop {
+    background-color: $charade;
+    margin-top: 15rem;
+    .footer-desktop-elements {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding-bottom: 5rem;
+        .footer-desktop-div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            h4 {
+                color: $blanco;
+                font-size: 1.4rem;
+                padding: 5rem 0rem 2rem 0rem;
+            }
+            p {
+                color: $blanco;
+                font-size: 1.2rem;
+                padding: 0rem 0rem 1.5rem 0rem;
+            }
+            a {
+                color: $blanco;
+                font-size: 1.2rem;
+                padding-top: 0.7rem;
+                padding-bottom: 1.5rem;
+                text-decoration: none;
+                &:hover {
+                    color: $naranja;
+                }
+            }
+            img {
+                width: 70%;
+                padding: 1rem 0rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-desktop {
+        .footer-desktop-elements {
+            .footer-desktop-div {
+                h4 {
+                    font-size: 1.6rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+                a {
+                    font-size: 1.4rem;
+                }
+                img {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
